@@ -1,0 +1,89 @@
+body {
+    background: #e9eaed;
+    font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    width: 1501px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #336699;
+    height: 43px;
+    margin: 0 auto;
+    position: fixed;
+
+}
+
+section {
+    padding-top: 53px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.post {
+    width: 475px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 13px;
+    background-color: #ffffff;
+    float: left;
+}
+.post p {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.post a {
+
+}
+.post-head {
+    padding-top: 10px;
+}
+.post-head-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    background-image: url(image/postor.png);
+}
+.post-head span {
+    color: #365899;
+    font-size: 12sp;
+    font-weight: bold;
+}
+
+.post-head-name {
+    margin-top: 3px;
+    width: 427px;
+    float: left;
+}
+.post-content {
+    float: left;
+}
+.post-head-name div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 60px;
+    height: 15px;
+    background-image: url(image/post-status.png);
+}
+
+#main-content {
+    width: 1501px;
+}
+
+#left-column {
+    float: left;
+}
+#post-status {
+    float: left;
+    margin-left: 10px;
+}
+#right-column {
+    float: left;
+    margin-left: 10px;
+}
+#posts img{
+    float: none;
+    margin-top: 10px;
+}
