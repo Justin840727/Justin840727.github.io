@@ -1,6 +1,6 @@
 body {
     background: #e9eaed;
-    font-family: "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    font-family: "微軟正黑體Bold", "Microsoft JhengHei", sans-serif;
     margin: 0;
     width: 1501px;
     margin: 0 auto;
@@ -24,6 +24,7 @@ section {
     padding-left: 13px;
     padding-right: 13px;
     margin-top: 13px;
+    padding-bottom: 10px;
     background-color: #ffffff;
     float: left;
 }
@@ -33,8 +34,14 @@ section {
 }
 
 .post a {
-
+    color: #4769aa;
+    margin-left: 10px; 
+    font-size: 14px;
+    font-style:normal;
+    font-weight: bold;
+    text-decoration: none;
 }
+
 .post-head {
     padding-top: 10px;
 }
@@ -45,11 +52,10 @@ section {
     margin-right: 8px;
     background-image: url(image/postor.png);
 }
-.post-head span {
-    color: #365899;
-    font-size: 12sp;
-    font-weight: bold;
+.post-head {
+    
 }
+
 
 .post-head-name {
     margin-top: 3px;
@@ -59,12 +65,29 @@ section {
 .post-content {
     float: left;
 }
+
+.post-content p {
+    color: #1d2129;
+    font-size: 12sp;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.shard-content {
+    float: left;
+    margin-left: 8px;
+    color: #9297a1;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
 .post-head-name div{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0;
-    width: 60px;
-    height: 15px;
+    width: 129px;
+    height: 12px;
     background-image: url(image/post-status.png);
 }
 
@@ -77,13 +100,37 @@ section {
 }
 #post-status {
     float: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #right-column {
     float: left;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 #posts img{
     float: none;
     margin-top: 10px;
+}
+
+#cover-image {
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+#postor-link {
+    color: #365899;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#postor-text {
+    color: #9fa3a9;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#post-share-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    background-image: url(image/post-share.png);
 }
