@@ -91,6 +91,13 @@ section {
     background-image: url(image/post-status.png);
 }
 
+.post-comment {
+    margin-top: 5px;
+    padding-left: 50px;
+    line-height: 20px;
+}
+
+
 #main-content {
     width: 1501px;
 }
@@ -102,6 +109,12 @@ section {
     float: left;
     margin-left: 15px;
 }
+
+#post-status2 {
+    float: left;
+    margin-left: 187px;
+}
+
 #right-column {
     float: left;
     margin-left: 15px;
@@ -133,4 +146,75 @@ section {
     height: 40px;
     margin-right: 8px;
     background-image: url(image/post-share.png);
+}
+
+#reply-like {
+    margin-top: 6px;
+    color: #3b5998;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#reply-date {
+    color: #838383;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#post-comment-img1 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user3.png);
+}
+#post-comment-img2 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
+}
+#post-comment-img3 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
+}
+#post-comment-img4 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
+}
+#post-comment-img5 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
+}
+#post-comment-img6 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
+}
+#post-comment-img7 {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 8px;
+    background-image: url(image/comment-profile/user1.png);
 }
