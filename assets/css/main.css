@@ -2204,24 +2204,6 @@ input[type=button]:disabled,
   padding-top: 0;
 }
 
-/* Main-sub */
-#main-sub {
-  margin-left: 28%;
-  max-width: 54em;
-  padding: 8em 4em 4em 4em;
-  width: calc(100% - 28%);
-}
-#main-sub > section {
-  border-top: solid 2px #efefef;
-  margin: 4em 0 0 0;
-  padding: 4em 0 0 0;
-}
-#main-sub > section:first-child {
-  border-top: 0;
-  margin-top: 0;
-  padding-top: 0;
-}
-
 /* Poptrox */
 @-moz-keyframes spin {
   0% {
