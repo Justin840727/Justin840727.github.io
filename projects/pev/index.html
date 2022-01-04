@@ -77,13 +77,14 @@
             <header class="major">
                 <h2>Stage 2: Autonomous system</h2>
             </header>
+            <!-- Mapping and Localization -->
             <article>
                 <div class="row col-two">
                     <div class="col-6 col-12-xsmall" >
-                        <h3>Mapping and Localization</h3>
-                        <p>
-                            <!-- To power up thsensors on the platform, I designed a simple power box that can charge batteries and convert voltage to 12V. Then I did a lot of experiments for different types of sensors, including 2D laser range finder, IMU, stereo camera, and RTK GPS. My first demo of the PEV project is curb following which extracts curb position from 2D Laser scan and uses PID controller to keep the distance between vehicle and curb. -->
-                        </p>
+                    <h3>Mapping and Localization</h3>
+                    <p>
+                        I integrated 3D LiDAR, IMU, and odometry to generate high resolution Point-cloud map, enabled the PEV's capability to localize in 6-DoF.
+                    </p>
                     </div>
                     <!-- <img class="col-6" src="images/curb_following.gif" alt="" /> -->
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bRvJczhc1ls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -96,7 +97,8 @@
                     <div class="col-6 col-12-xsmall" >
                         <h3>Routing Engine</h3>
                         <p>
-                            To power up the sensors on the platform, I designed a simple power box that can charge batteries and convert voltage to 12V. Then I did a lot of experiments for different types of sensors, including 2D laser range finder, IMU, stereo camera, and RTK GPS. My first demo of the PEV project is curb following which extracts curb position from 2D Laser scan and uses PID controller to keep the distance between vehicle and curb.
+                            The Routing Engine allows to define routes and to process routed message using a set of intermediaries. 
+                            Here, we create our routes and based on OSRM to generate the shortest path for the PEV, enables the self navigation.
                         </p>
                     </div>
                     
@@ -106,9 +108,10 @@
             <article>
                 <div class="row col-two">
                     <div class="col-6 col-12-xsmall" >
-                        <h3>Point-cloud world alignment tool</h3>
+                        <h3>Point-cloud alignment tool</h3>
                         <p>
-                            <!-- To power up the sensors on the platform, I designed a simple power box that can charge batteries and convert voltage to 12V. Then I did a lot of experiments for different types of sensors, including 2D laser range finder, IMU, stereo camera, and RTK GPS. My first demo of the PEV project is curb following which extracts curb position from 2D Laser scan and uses PID controller to keep the distance between vehicle and curb. -->
+                            The coordinate of the point-cloud map that generate from the SLAM system is not refer to the GPS coordinates. 
+                            This tool help users to find the transformation between GPS and point-cloud map.
                         </p>
                     </div>
                     <img class="col-6 col-12-xsmall" src="images/pcd_map_alignment.gif" alt="" />
@@ -121,7 +124,7 @@
                     <div class="col-6 col-12-xsmall" >
                         <h3>Object Detection</h3>
                         <p>
-                            <!-- To power up the sensors on the platform, I designed a simple power box that can charge batteries and convert voltage to 12V. Then I did a lot of experiments for different types of sensors, including 2D laser range finder, IMU, stereo camera, and RTK GPS. My first demo of the PEV project is curb following which extracts curb position from 2D Laser scan and uses PID controller to keep the distance between vehicle and curb. -->
+                            
                         </p>
                     </div>
                 </div>
@@ -154,27 +157,27 @@
 
                 <!-- Full-width images with number text -->
                 <div class="mySlides">
-                <div class="numbertext">1 / 6</div>
+                <div class="numbertext">1 / 5</div>
                     <img src="./images/nichinan_medialab.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">2 / 6</div>
+                <div class="numbertext">2 / 5</div>
                     <img src="./images/nichinan_cap.JPG" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">3 / 6</div>
+                <div class="numbertext">3 / 5</div>
                     <img src="./images/nichinan_eye.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">4 / 6</div>
+                <div class="numbertext">4 / 5</div>
                     <img src="./images/nichinan_side.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                <div class="numbertext">5 / 6</div>
+                <div class="numbertext">5 / 5</div>
                     <img src="./images/nichinan_trunck.JPG" style="width:100%">
                 </div>
             
@@ -190,19 +193,19 @@
                 <!-- Thumbnail images -->
                 <div class="row">
                 <div class="column">
-                    <img class="demo cursor" src="./images/nichinan_medialab.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                    <img class="demo cursor" src="./images/nichinan_medialab.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="./images/nichinan_cap.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                    <img class="demo cursor" src="./images/nichinan_cap.JPG" style="width:100%" onclick="currentSlide(2)" alt="">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="./images/nichinan_eye.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    <img class="demo cursor" src="./images/nichinan_eye.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="./images/nichinan_side.jpg" style="width:100%" onclick="currentSlide(4)" alt="Nature and sunrise">
+                    <img class="demo cursor" src="./images/nichinan_side.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="./images/nichinan_trunck.JPG" style="width:100%" onclick="currentSlide(5)" alt="Snowy Mountains">
+                    <img class="demo cursor" src="./images/nichinan_trunck.JPG" style="width:100%" onclick="currentSlide(5)" alt="">
                 </div>
                 </div>
             </div>
