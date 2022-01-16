@@ -1184,12 +1184,20 @@ $size-header-pad: 4em;
 						object-fit: contain;
 					}
 					> iframe {
-						width: 560;
-						height: 315;
+						object-fit: contain;
+						height: 15em;
 					}
 				}
 				// > div div h3{
 				// 	background-color: cadetblue;
+				> iframe {
+					width: 100%; 
+					height: 30vw; /* 100/56.25 = 560/315 = 1.778 */
+				}
+			}
+			> iframe {
+				width: 100%; 
+				height: 30vw; /* 100/56.25 = 560/315 = 1.778 */
 			}
 		}
 	}
